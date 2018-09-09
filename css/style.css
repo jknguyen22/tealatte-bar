@@ -24,7 +24,7 @@ ul{
     width: 100%;
 }
 
-.button_1{
+#button_1{
   height:38px;
   background:lightgreen;
   border:0;
@@ -32,7 +32,7 @@ ul{
   padding-right:20px;
   color: #ffffff;
 }
-.button_2{
+#button_2{
   height:38px;
   background:lightgreen;
   border:0;
@@ -40,7 +40,7 @@ ul{
   padding-right:20px;
   color:#ffffff;
 }
-.button_3{
+#button_3{
   height:38px;
   background:lightgreen;
   border:0;
@@ -126,7 +126,9 @@ header #branding h1{
 header nav{
   float:right;
   margin-top:10px;
+
 }
+
 
 header .highlight, header .current a{
   color:lightgreen;
@@ -155,10 +157,6 @@ header a:hover{
 #boxes .box img{
   width:200px;
 }
-
-
-/*#aboutus*/
-
 
 footer{
   padding:20px;

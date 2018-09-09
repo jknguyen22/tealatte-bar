@@ -7,8 +7,6 @@
 	<meta name="keywords" content="organic coffee, boba, tapioca, bubbles, boba tea, tealatte, tealatte bar">
   	<meta name="author" content="Jenny Nguyen">
     <title>TeaLatte Bar | Welcome</title>
-<!-- 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
   </head>
@@ -48,17 +46,17 @@ jquery is working
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
-                    <img src="./img/carousel1.jpg" class="img-fluid" alt="">
+                    <img src="./img/tealattebar14.jpg" class="img-fluid" alt="">
                     <div class="carousel-caption">
                         <h1>TeaLatte Bar</h1>
                         <p>Your one-stop shop for organic and delicious drinks.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./img/carousel2.jpg" class="img-fluid" alt="">
+                    <img src="./img/drinks6.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="carousel-item">
-                    <img src="./img/carousel3.jpg" class="img-fluid" alt="">
+                    <img src="./img/wakeup4.jpg" class="img-fluid" alt="">
                 </div>
             </div>
 
@@ -80,23 +78,27 @@ jquery is working
 		        	<h3>About</h3>
 		        	<p>Learn about the story behind TeaLatte Bar and our drinks.</p>
 			        <form>
-			         	<button type="submit" class="button_1">See More</button>
+			         	<!-- <button type="submit" class="button_1">See More</button> -->
+                        <input type="button" id="button_1" class="btn btn-info 1" value="See More" onclick="location.href = 'about.html';">
 		        	</form>
 	        	</div>
 	        	<div class="box">
-			        <img src="./img/tealattebar4.jpg">
+			        <img src="./img/teaoftheday.jpg">
 			        <h3>Menu</h3>
 			        <p>Check out the numerous drinks and toppings we carry.</p>
 			        <form>
-				        <button type="submit" class="button_2">See More</button>
+				        <input type="button" id="button_2" class="btn btn-info 2" value="See More" onclick="location.href = 'menu.html';">
 			        </form>
 	        	</div>
 		    	<div class="box">
-		          <img src="./img/tealattebar5.jpg">
+		          <img src="./img/boardgames.jpg">
 		          <h3>Location</h3>
 		          <p>3052 Old Denton Rd, Carrollton, TX 75007</p>
 		          	<form>
-			         	<button type="submit" class="button_3">See More</button>
+<!-- 			         	<a href="location.html"><button type="submit" class="button_3">See More</button></a>
+ -->                     <!--    <button type="button" formaction="location.html">Get In Touch!</button> -->
+<!--                         <button onclick="window.location.href='/location.html'">Continue</button>-->
+                         <input type="button" id="button_3" class="btn btn-info 3" value="See More" onclick="location.href = 'location.html';">
 		        	</form>
 	       	 	</div>
 	     	</div>
