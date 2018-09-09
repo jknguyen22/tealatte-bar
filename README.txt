@@ -15,6 +15,14 @@ Day 2
 First time using CSS, spent a lot of time learning it. Troubleshooting minor CSS issues. Ended up with a MVP (minimum viable product) for the project
 Day 3
 Set aside for Bootstrap Javascript and final touches. 
-	Links on index page need working buttons
+	[]feature: Links on index page need working buttons
+	[]major issue: bootstrap is interferring with header alignments on different pages, need to find a way to disable or properly use bootstrap for header
+	[]major issue: find high quality pictures of boba related items OR resize pictures to be consistent page to page
+	[x]minor issue: replace text placeholders with related words
+	[x]clean up any unrelated code/comments
+	[x]provide detailed commenting
+	note: won't be using SASS, also using jquery now
+	ALL ISSUES must be resolved before Day 4.
 Day 4
-Set aside for deployment on AWS
+	Carry over tasks from Day 3
+	Set aside for deployment on AWS
