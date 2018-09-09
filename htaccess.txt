@@ -1,0 +1,1 @@
+ErrorDocument 404 /TeaLatteBar/404error.html
